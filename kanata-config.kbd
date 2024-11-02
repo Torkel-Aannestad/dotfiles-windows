@@ -4,7 +4,7 @@
 )
 
 (defsrc
-  caps a s d f j k l ø
+  caps a s d f j k l ;
 )
 (defvar
   tap-time 150
@@ -20,7 +20,7 @@
   j (tap-hold $tap-time $hold-time j rctl)
   k (tap-hold $tap-time $hold-time k rsft)
   l (tap-hold $tap-time $hold-time l ralt)
-  ø (tap-hold $tap-time $hold-time ø rmet)
+  ; (tap-hold $tap-time $hold-time ; rmet)
   ;; ; (tap-hold $tap-time $hold-time ; rmet)
 )
 
